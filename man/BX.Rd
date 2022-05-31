@@ -5,18 +5,18 @@
 \title{Book-Crossing Dataset (BX)}
 \description{
 The data set contains a 4-week crawl (August / September 2004) from the
-Book-Crossing community.  Contains 278,858 users (anonymized) 
+Book-Crossing community.  Contains 278,858 users (anonymized)
 providing 1,149,780 ratings (explicit / implicit)
-about 271,379 books. 
+about 271,379 books.
 }
 \usage{
-    data(BX)
-    data(BXBooks)
-    }
+data(BX)
+data(BXBooks)
+}
 \format{
-  The format is: 
-  
-  BX: Formal class 'realRatingMatrix' [package "recommenderlab"] 
+  The format is:
+
+  BX: Formal class 'realRatingMatrix' [package "recommenderlab"]
   BXBooks: data.frame with book meta information (title, author, year, publisher)
 }
 \details{
@@ -34,6 +34,6 @@ Proceedings of the 14th International World Wide Web Conference (WWW '05), May 1
 data(BX)
 BX
 
-hist(getRatings(BX), main="Distribution of ratings", breaks=10)
+hist(getRatings(BX), main = "Distribution of ratings", breaks = 10)
 }
 \keyword{datasets}
